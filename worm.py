@@ -50,8 +50,8 @@ def propagate():
 
 
 def copy():
-        script = argv
-        name = str(script[0])
+        script = argv 
+        name = str(script[0])#name is the python file name
         b = os.path.getsize(os.path.abspath("C:"))
         for i in range(0,4):
                 directoryName = "copy"+str(i)
